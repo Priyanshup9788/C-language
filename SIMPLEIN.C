@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+	int p=10000,r=5,n=3;
+	float si=(p*r*n)/100;
+	clrscr();
+	printf("Simple Interest:- %.3f",si);
+	getch();
+}
